@@ -48,3 +48,17 @@ elif age < 34:
 else:
     print("you must be 35 years old")
 
+# python operators arithmetic and comparison
+"""
+arithmetic: + add, - subtract, * multiplication, / Division
+
+Comparison: ==equal, != not equal, > greater then, < less than, >= GT or Eq, <= LT or Eq
+"""
+
+print(5 * 5)
+
+num_1 = 9
+num_2 = 8
+total = num_1 + num_2
+
+print("The total of num_1 and num_2 is:" + str(total))
