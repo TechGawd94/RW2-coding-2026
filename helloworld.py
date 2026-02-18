@@ -9,3 +9,9 @@ anything inside will not execute
 
 #this will print to the screen
 print("Hello World!")
+
+name = "Gwen"
+print(name)
+
+print(5*5)
+
