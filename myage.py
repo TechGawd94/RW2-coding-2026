@@ -39,10 +39,29 @@ def my_func_1(city):
 print(name,age,city)
 my_func_1(city)
 """
-
+"""
 #create variable x with value of 5
 x = 5
 y = "John"
 print(type(x))
+"""
+my_cars = ["mercedes", "bmw", "subaru", "ford", "chrysler", "porsche"]
+my_cars.append("corvette")
 
+print(my_cars)
+print(f"i drive a {my_cars[2]}")
+print(len(my_cars))
+
+# python "for" loop
+
+counter = 0
+for car in my_cars:
+    print(f"car # {counter} is {car}")
+    counter += 1
+
+print("********")
+
+my_range = range(4)
+for val in my_range:
+    print (f"car # {val} is {my_cars[val]}")
 
