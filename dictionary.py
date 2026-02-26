@@ -28,7 +28,7 @@ else:
     print("Life is tough!")
 counter +=1
 
-#opening python with a file
+#opening file with a python
 
 myNameFile = open("names.txt")
 for line in myNameFile:
